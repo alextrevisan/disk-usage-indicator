@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.disk-usage-indicator"
+          path="/org/gnome/shell/extensions/disk-usage-indicator/">
+    <key name="panel-disk" type="s">
+      <default>'/'</default>
+      <summary>Disk shown in the panel</summary>
+      <description>Mount point of the disk whose usage is shown in the panel, or "fullest" for the disk with the highest usage. If the disk is not mounted, the system disk is shown instead.</description>
+    </key>
+  </schema>
+</schemalist>

@@ -1,0 +1,12 @@
+{
+  "uuid": "disk-usage-indicator@alex",
+  "name": "Disk Usage Indicator",
+  "description": "Shows disk usage in the top panel, with Windows-style usage bars.",
+  "shell-version": [
+    "48",
+    "49",
+    "50"
+  ],
+  "url": "https://github.com/alexbaixista/disk-usage-indicator",
+  "settings-schema": "org.gnome.shell.extensions.disk-usage-indicator"
+}

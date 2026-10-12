@@ -1,0 +1,52 @@
+.diu-panel-label {
+    padding-left: 4px;
+}
+
+.diu-critical,
+.diu-critical .system-status-icon {
+    color: #ff7b72;
+}
+
+.diu-item {
+    padding: 8px 12px;
+}
+
+.diu-disk-icon {
+    icon-size: 16px;
+    padding-right: 8px;
+}
+
+.diu-name {
+    font-weight: bold;
+}
+
+.diu-eject {
+    padding: 4px;
+    border-radius: 99px;
+}
+
+.diu-eject:hover {
+    background-color: rgba(127, 127, 127, 0.3);
+}
+
+.diu-bar {
+    height: 8px;
+    margin: 6px 0 4px 0;
+    border-radius: 4px;
+    background-color: rgba(127, 127, 127, 0.3);
+}
+
+.diu-bar-fill {
+    height: 8px;
+    border-radius: 4px;
+    background-color: -st-accent-color;
+}
+
+.diu-bar-fill.diu-critical {
+    background-color: #e01b24;
+}
+
+.diu-free {
+    font-size: 0.9em;
+    color: rgba(127, 127, 127, 1);
+}
